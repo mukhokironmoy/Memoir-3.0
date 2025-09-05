@@ -1,0 +1,11 @@
+2025-09-05 12:17:32 | INFO     | Flask app created successfully
+2025-09-05 12:17:33 | INFO     | Flask app created successfully
+2025-09-05 12:17:40 | INFO     | Incoming request
+2025-09-05 12:17:40 | INFO     | Response status: 404 NOT FOUND
+2025-09-05 12:18:10 | INFO     | Incoming request
+2025-09-05 12:18:10 | INFO     | Glasses home route accessed
+2025-09-05 12:18:10 | INFO     | Response status: 200 OK
+2025-09-05 12:18:25 | INFO     | Flask app created successfully
+2025-09-05 12:18:30 | INFO     | Incoming request
+2025-09-05 12:18:30 | INFO     | Memory Bank home route accessed
+2025-09-05 12:18:30 | INFO     | Response status: 200 OK
