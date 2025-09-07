@@ -1,0 +1,13 @@
+2025-09-06 16:30:31 | INFO     | Flask app created successfully
+2025-09-06 16:30:37 | INFO     | Incoming request
+2025-09-06 16:30:37 | INFO     | Response status: 404 NOT FOUND
+2025-09-06 16:30:39 | INFO     | Incoming request
+2025-09-06 16:30:39 | INFO     | Response status: 200 OK
+2025-09-06 16:30:39 | INFO     | Incoming request
+2025-09-06 16:30:39 | INFO     | Response status: 404 NOT FOUND
+2025-09-06 16:30:40 | INFO     | Incoming request
+2025-09-06 16:30:40 | INFO     | Response status: 404 NOT FOUND
+2025-09-06 16:30:42 | INFO     | Incoming request
+2025-09-06 16:30:42 | INFO     | Response status: 200 OK
+2025-09-06 16:30:44 | INFO     | Incoming request
+2025-09-06 16:30:44 | INFO     | Response status: 404 NOT FOUND

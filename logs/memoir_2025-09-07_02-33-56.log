@@ -1,0 +1,127 @@
+2025-09-07 02:33:56 | INFO     | Flask app created successfully
+2025-09-07 02:34:03 | INFO     | Incoming request
+2025-09-07 02:34:03 | INFO     | Glasses home route accessed
+2025-09-07 02:34:03 | INFO     | Response status: 200 OK
+2025-09-07 02:34:03 | INFO     | Incoming request
+2025-09-07 02:34:03 | INFO     | Incoming request
+2025-09-07 02:34:04 | INFO     | Response status: 304 NOT MODIFIED
+2025-09-07 02:34:04 | INFO     | Response status: 304 NOT MODIFIED
+2025-09-07 02:34:04 | INFO     | Incoming request
+2025-09-07 02:34:04 | INFO     | Response status: 200 OK
+2025-09-07 02:34:06 | INFO     | Incoming request
+2025-09-07 02:34:06 | INFO     | Memoir mode home sidebar
+2025-09-07 02:34:06 | INFO     | Response status: 200 OK
+2025-09-07 02:34:07 | INFO     | Incoming request
+2025-09-07 02:34:07 | INFO     | Response status: 304 NOT MODIFIED
+2025-09-07 02:34:07 | INFO     | Incoming request
+2025-09-07 02:34:07 | INFO     | Response status: 304 NOT MODIFIED
+2025-09-07 02:34:07 | INFO     | Incoming request
+2025-09-07 02:34:07 | INFO     | Response status: 304 NOT MODIFIED
+2025-09-07 02:34:07 | INFO     | Incoming request
+2025-09-07 02:34:07 | INFO     | Response status: 304 NOT MODIFIED
+2025-09-07 02:34:07 | INFO     | Incoming request
+2025-09-07 02:34:07 | INFO     | Response status: 304 NOT MODIFIED
+2025-09-07 02:34:07 | INFO     | Incoming request
+2025-09-07 02:34:07 | INFO     | Response status: 304 NOT MODIFIED
+2025-09-07 02:34:07 | INFO     | Incoming request
+2025-09-07 02:34:07 | INFO     | Response status: 304 NOT MODIFIED
+2025-09-07 02:34:07 | INFO     | Incoming request
+2025-09-07 02:34:07 | INFO     | Incoming request
+2025-09-07 02:34:07 | INFO     | Response status: 304 NOT MODIFIED
+2025-09-07 02:34:07 | INFO     | Response status: 304 NOT MODIFIED
+2025-09-07 02:34:08 | INFO     | Incoming request
+2025-09-07 02:34:08 | INFO     | Response status: 200 OK
+2025-09-07 02:34:11 | INFO     | Incoming request
+2025-09-07 02:34:11 | INFO     | Incoming request
+2025-09-07 02:34:11 | INFO     | Incoming request
+2025-09-07 02:34:11 | INFO     | Incoming request
+2025-09-07 02:34:11 | INFO     | Response status: 304 NOT MODIFIED
+2025-09-07 02:34:11 | INFO     | Response status: 304 NOT MODIFIED
+2025-09-07 02:34:11 | INFO     | Response status: 304 NOT MODIFIED
+2025-09-07 02:34:11 | INFO     | Response status: 304 NOT MODIFIED
+2025-09-07 02:34:15 | INFO     | Incoming request
+2025-09-07 02:34:15 | INFO     | Response status: 200 OK
+2025-09-07 02:34:18 | INFO     | Incoming request
+2025-09-07 02:34:18 | INFO     | Incoming request
+2025-09-07 02:34:18 | INFO     | Incoming request
+2025-09-07 02:34:18 | INFO     | Response status: 304 NOT MODIFIED
+2025-09-07 02:34:18 | INFO     | Response status: 304 NOT MODIFIED
+2025-09-07 02:34:18 | INFO     | Response status: 304 NOT MODIFIED
+2025-09-07 02:34:20 | INFO     | Incoming request
+2025-09-07 02:34:20 | INFO     | Response status: 200 OK
+2025-09-07 02:34:22 | INFO     | Incoming request
+2025-09-07 02:34:22 | INFO     | Response status: 304 NOT MODIFIED
+2025-09-07 02:34:22 | INFO     | Incoming request
+2025-09-07 02:34:22 | INFO     | Incoming request
+2025-09-07 02:34:22 | INFO     | Response status: 304 NOT MODIFIED
+2025-09-07 02:34:22 | INFO     | Response status: 304 NOT MODIFIED
+2025-09-07 02:34:23 | INFO     | Incoming request
+2025-09-07 02:34:24 | INFO     | Response status: 200 OK
+2025-09-07 02:34:25 | INFO     | Incoming request
+2025-09-07 02:34:25 | INFO     | Response status: 304 NOT MODIFIED
+2025-09-07 02:34:25 | INFO     | Incoming request
+2025-09-07 02:34:26 | INFO     | Incoming request
+2025-09-07 02:34:26 | INFO     | Response status: 304 NOT MODIFIED
+2025-09-07 02:34:26 | INFO     | Response status: 304 NOT MODIFIED
+2025-09-07 02:34:29 | INFO     | Incoming request
+2025-09-07 02:34:29 | INFO     | Response status: 200 OK
+2025-09-07 02:34:29 | INFO     | Incoming request
+2025-09-07 02:34:29 | INFO     | Response status: 200 OK
+2025-09-07 02:34:39 | INFO     | Incoming request
+2025-09-07 02:34:39 | INFO     | Incoming request
+2025-09-07 02:34:39 | INFO     | Incoming request
+2025-09-07 02:34:39 | INFO     | Response status: 304 NOT MODIFIED
+2025-09-07 02:34:39 | INFO     | Response status: 304 NOT MODIFIED
+2025-09-07 02:34:39 | INFO     | Response status: 304 NOT MODIFIED
+2025-09-07 02:35:11 | INFO     | Incoming request
+2025-09-07 02:35:11 | INFO     | Response status: 304 NOT MODIFIED
+2025-09-07 02:35:11 | INFO     | Incoming request
+2025-09-07 02:35:11 | INFO     | Response status: 404 NOT FOUND
+2025-09-07 02:35:17 | INFO     | Incoming request
+2025-09-07 02:35:17 | INFO     | Response status: 200 OK
+2025-09-07 02:35:17 | INFO     | Incoming request
+2025-09-07 02:35:17 | INFO     | Response status: 200 OK
+2025-09-07 02:35:24 | INFO     | Incoming request
+2025-09-07 02:35:24 | INFO     | Incoming request
+2025-09-07 02:35:24 | INFO     | Response status: 304 NOT MODIFIED
+2025-09-07 02:35:24 | INFO     | Incoming request
+2025-09-07 02:35:24 | INFO     | Response status: 304 NOT MODIFIED
+2025-09-07 02:35:24 | INFO     | Response status: 304 NOT MODIFIED
+2025-09-07 02:35:32 | INFO     | Incoming request
+2025-09-07 02:35:32 | INFO     | Response status: 200 OK
+2025-09-07 02:35:36 | INFO     | Incoming request
+2025-09-07 02:35:36 | INFO     | Response status: 200 OK
+2025-09-07 02:35:40 | INFO     | Incoming request
+2025-09-07 02:35:40 | INFO     | Response status: 200 OK
+2025-09-07 02:35:44 | INFO     | Incoming request
+2025-09-07 02:35:44 | INFO     | Incoming request
+2025-09-07 02:35:44 | INFO     | Response status: 304 NOT MODIFIED
+2025-09-07 02:35:44 | INFO     | Incoming request
+2025-09-07 02:35:44 | INFO     | Response status: 304 NOT MODIFIED
+2025-09-07 02:35:44 | INFO     | Response status: 304 NOT MODIFIED
+2025-09-07 02:35:54 | INFO     | Incoming request
+2025-09-07 02:35:54 | INFO     | Response status: 200 OK
+2025-09-07 02:35:54 | INFO     | Incoming request
+2025-09-07 02:35:54 | INFO     | Response status: 200 OK
+2025-09-07 02:36:07 | INFO     | Incoming request
+2025-09-07 02:36:07 | INFO     | Response status: 304 NOT MODIFIED
+2025-09-07 02:36:07 | INFO     | Incoming request
+2025-09-07 02:36:07 | INFO     | Response status: 304 NOT MODIFIED
+2025-09-07 02:36:07 | INFO     | Incoming request
+2025-09-07 02:36:07 | INFO     | Response status: 304 NOT MODIFIED
+2025-09-07 02:37:11 | INFO     | Incoming request
+2025-09-07 02:37:12 | INFO     | Response status: 200 OK
+2025-09-07 02:37:12 | INFO     | Incoming request
+2025-09-07 02:37:12 | INFO     | Response status: 200 OK
+2025-09-07 02:37:29 | INFO     | Incoming request
+2025-09-07 02:37:29 | INFO     | Incoming request
+2025-09-07 02:37:29 | INFO     | Response status: 304 NOT MODIFIED
+2025-09-07 02:37:29 | INFO     | Response status: 304 NOT MODIFIED
+2025-09-07 02:37:29 | INFO     | Incoming request
+2025-09-07 02:37:29 | INFO     | Response status: 304 NOT MODIFIED
+2025-09-07 02:37:43 | INFO     | Incoming request
+2025-09-07 02:37:43 | INFO     | Response status: 200 OK
+2025-09-07 02:37:43 | INFO     | Incoming request
+2025-09-07 02:37:43 | INFO     | Response status: 200 OK
+2025-09-07 02:37:43 | INFO     | Incoming request
+2025-09-07 02:37:43 | INFO     | Response status: 304 NOT MODIFIED

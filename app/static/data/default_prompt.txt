@@ -1,0 +1,7 @@
+Summarize the following transcript into crisp bullet points from the USER’s perspective i.e. these notes should be something that the user reads and understands what happened in the conversation. 
+- Make it abstractive (not just shortened lines).  
+- Keep it short.
+- One short sentence per point.
+- Cover all key context without missing anything.  
+- Do not include any extra text or explanation beyond the bullet points.
+- Dont add any symbol for the point. Each new point should just be in a new line  

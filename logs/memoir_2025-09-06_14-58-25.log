@@ -1,0 +1,43 @@
+2025-09-06 14:58:25 | INFO     | Flask app created successfully
+2025-09-06 14:58:28 | INFO     | Incoming request
+2025-09-06 14:58:28 | INFO     | Memoir mode home sidebar
+2025-09-06 14:58:28 | INFO     | Response status: 200 OK
+2025-09-06 14:58:28 | INFO     | Incoming request
+2025-09-06 14:58:28 | INFO     | Incoming request
+2025-09-06 14:58:28 | INFO     | Response status: 304 NOT MODIFIED
+2025-09-06 14:58:28 | INFO     | Response status: 304 NOT MODIFIED
+2025-09-06 14:58:28 | INFO     | Incoming request
+2025-09-06 14:58:28 | INFO     | Response status: 200 OK
+2025-09-06 14:58:31 | INFO     | Incoming request
+2025-09-06 14:58:31 | INFO     | Response status: 404 NOT FOUND
+2025-09-06 14:58:31 | INFO     | Incoming request
+2025-09-06 14:58:31 | INFO     | Response status: 404 NOT FOUND
+2025-09-06 14:58:31 | INFO     | Incoming request
+2025-09-06 14:58:31 | INFO     | Response status: 404 NOT FOUND
+2025-09-06 14:58:35 | INFO     | Incoming request
+2025-09-06 14:58:35 | INFO     | Response status: 200 OK
+2025-09-06 15:00:23 | INFO     | Incoming request
+2025-09-06 15:00:23 | INFO     | Incoming request
+2025-09-06 15:00:23 | INFO     | Response status: 404 NOT FOUND
+2025-09-06 15:00:23 | INFO     | Response status: 404 NOT FOUND
+2025-09-06 15:00:23 | INFO     | Incoming request
+2025-09-06 15:00:23 | INFO     | Response status: 404 NOT FOUND
+2025-09-06 15:00:25 | INFO     | Incoming request
+2025-09-06 15:00:25 | INFO     | Response status: 200 OK
+2025-09-06 15:09:01 | INFO     | Incoming request
+2025-09-06 15:09:01 | INFO     | Memoir mode home sidebar
+2025-09-06 15:09:01 | INFO     | Response status: 200 OK
+2025-09-06 15:09:01 | INFO     | Incoming request
+2025-09-06 15:09:01 | INFO     | Response status: 304 NOT MODIFIED
+2025-09-06 15:09:01 | INFO     | Incoming request
+2025-09-06 15:09:01 | INFO     | Response status: 200 OK
+2025-09-06 15:09:01 | INFO     | Incoming request
+2025-09-06 15:09:01 | INFO     | Response status: 200 OK
+2025-09-06 15:09:03 | INFO     | Incoming request
+2025-09-06 15:09:03 | INFO     | Response status: 404 NOT FOUND
+2025-09-06 15:09:03 | INFO     | Incoming request
+2025-09-06 15:09:03 | INFO     | Response status: 404 NOT FOUND
+2025-09-06 15:09:03 | INFO     | Incoming request
+2025-09-06 15:09:03 | INFO     | Response status: 404 NOT FOUND
+2025-09-06 15:09:05 | INFO     | Incoming request
+2025-09-06 15:09:05 | INFO     | Response status: 200 OK

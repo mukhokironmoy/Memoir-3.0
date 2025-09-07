@@ -1,0 +1,16 @@
+{% extends "memory_bank_base.html" %} {% block content %}
+<h1 class="h4 mb-3" data-aos="fade-right">Unknown Profiles</h1>
+<ul class="list-unstyled" data-aos="fade-up">
+  {% for u in unknowns %}
+  <li class="mb-2">
+    <a href="{{ url_for('memory_bank.person', person_id=u.id) }}"
+      >{{ u.display_name }}</a
+    >
+    {% if u.photo_url %}<span class="text-muted"> — has snapshot</span>{% endif
+    %}
+  </li>
+  {% else %}
+  <li class="text-muted">No unknown profiles.</li>
+  {% endfor %}
+</ul>
+{% endblock %}

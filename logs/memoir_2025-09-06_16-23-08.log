@@ -1,0 +1,35 @@
+2025-09-06 16:23:08 | INFO     | Flask app created successfully
+2025-09-06 16:23:15 | INFO     | Incoming request
+2025-09-06 16:23:15 | INFO     | Response status: 404 NOT FOUND
+2025-09-06 16:23:19 | INFO     | Incoming request
+2025-09-06 16:23:19 | INFO     | Glasses home route accessed
+2025-09-06 16:23:19 | INFO     | Response status: 200 OK
+2025-09-06 16:23:19 | INFO     | Incoming request
+2025-09-06 16:23:19 | INFO     | Incoming request
+2025-09-06 16:23:20 | INFO     | Response status: 304 NOT MODIFIED
+2025-09-06 16:23:20 | INFO     | Response status: 304 NOT MODIFIED
+2025-09-06 16:23:22 | INFO     | Incoming request
+2025-09-06 16:23:22 | INFO     | Memoir mode home sidebar
+2025-09-06 16:23:22 | INFO     | Response status: 200 OK
+2025-09-06 16:23:22 | INFO     | Incoming request
+2025-09-06 16:23:22 | INFO     | Response status: 304 NOT MODIFIED
+2025-09-06 16:23:22 | INFO     | Incoming request
+2025-09-06 16:23:22 | INFO     | Response status: 304 NOT MODIFIED
+2025-09-06 16:23:22 | INFO     | Incoming request
+2025-09-06 16:23:22 | INFO     | Response status: 200 OK
+2025-09-06 16:23:24 | INFO     | Incoming request
+2025-09-06 16:23:24 | INFO     | Incoming request
+2025-09-06 16:23:24 | INFO     | Incoming request
+2025-09-06 16:23:24 | INFO     | Response status: 200 OK
+2025-09-06 16:23:24 | INFO     | Response status: 404 NOT FOUND
+2025-09-06 16:23:24 | INFO     | Response status: 200 OK
+2025-09-06 16:23:28 | INFO     | Incoming request
+2025-09-06 16:23:28 | INFO     | Response status: 200 OK
+2025-09-06 16:23:30 | INFO     | Incoming request
+2025-09-06 16:23:30 | INFO     | Response status: 404 NOT FOUND
+2025-09-06 16:23:36 | INFO     | Incoming request
+2025-09-06 16:23:36 | INFO     | Response status: 200 OK
+2025-09-06 16:23:59 | INFO     | Incoming request
+2025-09-06 16:23:59 | INFO     | Incoming request
+2025-09-06 16:23:59 | INFO     | Response status: 404 NOT FOUND
+2025-09-06 16:23:59 | INFO     | Response status: 304 NOT MODIFIED

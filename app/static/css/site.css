@@ -1,0 +1,179 @@
+#special {
+border-radius: 0.6rem; border-color: rgba(var(--bs-primary-rgb), .10);
+}
+
+/* Fixed thumbnail helpers */
+.thumb-fixed { height: 240px; }  /* equal card thumbs */  /* [5] */
+@media (min-width: 992px) { .thumb-fixed { height: 280px; } }  /* [5] */
+.img-cover { object-fit: cover; width: 100%; height: 100%; }  /* [5] */
+
+/* Small brand tokens */
+:root {
+  --brand-radius: 0.75rem;  /* site-wide rounding */  /* [6] */
+}
+.card { border-radius: var(--brand-radius); }  /* [6] */
+.navbar { backdrop-filter: saturate(120%) blur(4px); }  /* subtle depth */  /* [6] */
+.section-title { font-weight: 600; }  /* [6] */
+.hero-sub { color: #6c757d; }  /* [6] */
+
+/* Bootstrap 5 theming via CSS variables — Teal Fresh palette */
+:root,
+[data-bs-theme="light"] {
+  
+  /* Brand colors */
+  --bs-primary: #4F7573;           /* Teal 600 */  /* [2] */
+  --bs-primary-rgb: 14,165,164;    /* [2] */
+  --bs-secondary: #475569;         /* Slate 600 */  /* [2] */
+  --bs-secondary-rgb: 71,85,105;   /* [2] */
+
+  --bs-btn-active-bg: #475569;
+
+  /* Background and surfaces */
+  --bs-body-bg: #EAEFEF;           /* airy light bg */  /* [2] */
+  --bs-body-color: #0f172a;        /* Slate 900 text */  /* [2] */
+  --bs-tertiary-bg: #ffffff;       /* surfaces */  /* [2] */
+
+  /* Links */
+  --bs-link-color: var(--bs-primary);            /* [2] */
+  --bs-link-hover-color: #0b8e8d;                /* darker teal */  /* [2] */
+
+  /* Borders & radius */
+  --bs-border-color: #e2e8f0;       /* Slate-200/300 */  /* [2] */
+  --bs-border-radius: 0.75rem;      /* keep rounded feel */  /* [2] */
+
+  /* Cards and navbar */
+  --bs-card-bg: #B8CFCE;            /* [2] */
+  --bs-card-cap-bg: #ffffff;        /* [2] */
+  --bs-navbar-color: #334155;       /* Slate 700 */  /* [2] */
+  --bs-navbar-hover-color: var(--bs-primary);  /* [2] */
+  --bs-navbar-bg: #89AFAE;
+}
+
+/* Optional polish */
+.card.shadow-sm { box-shadow: 0 0.5rem 1rem rgba(3,105,161,0.06) !important; }  /* teal-tinted shadow */  /* [6] */
+.card:hover { transform: translateY(-1px); transition: transform .15s ease; }  /* [6] */
+.btn { border-radius: 0.6rem; }  /* softer buttons */  /* [6] */
+.btn-outline-primary { border-color: rgba(var(--bs-primary-rgb), .35); }  /* [2] */
+.navbar .btn-link { color: var(--bs-navbar-color); }  /* [2] */
+.navbar .btn-link:hover { color: var(--bs-primary); }  /* [2] */
+
+/* Keep card image corners consistent with Bootstrap ratio wrapper */
+.ratio.rounded-top {
+  border-top-left-radius: var(--bs-border-radius);
+  border-top-right-radius: var(--bs-border-radius);
+  overflow: hidden;
+}
+
+.btn-primary {
+  --bs-btn-bg: var(--bs-primary);
+  --bs-btn-border-color: var(--bs-primary);
+  --bs-btn-color: #ffffff;
+  --bs-btn-hover-bg: color-mix(in srgb, var(--bs-primary) 85%, #000 15%);
+  --bs-btn-hover-border-color: color-mix(in srgb, var(--bs-primary) 85%, #000 15%);
+  --bs-btn-active-bg: color-mix(in srgb, var(--bs-primary) 75%, #000 25%);
+  --bs-btn-active-border-color: color-mix(in srgb, var(--bs-primary) 75%, #000 25%);
+  --bs-btn-disabled-bg: color-mix(in srgb, var(--bs-primary) 55%, #fff 45%);
+  --bs-btn-disabled-border-color: color-mix(in srgb, var(--bs-primary) 55%, #fff 45%);
+}
+
+/* 3) Secondary buttons with solid brand tone */
+.btn-secondary {
+  --bs-btn-bg: var(--bs-secondary);
+  --bs-btn-border-color: var(--bs-secondary);
+  --bs-btn-color: #ffffff;
+  --bs-btn-hover-bg: color-mix(in srgb, var(--bs-secondary) 85%, #000 15%);
+  --bs-btn-hover-border-color: color-mix(in srgb, var(--bs-secondary) 85%, #000 15%);
+  --bs-btn-active-bg: color-mix(in srgb, var(--bs-secondary) 75%, #000 25%);
+  --bs-btn-active-border-color: color-mix(in srgb, var(--bs-secondary) 75%, #000 25%);
+}
+
+/* 4) Outline variant that uses the brand color clearly */
+.btn-outline-primary {
+  --bs-btn-color: var(--bs-primary);
+  --bs-btn-border-color: var(--bs-primary);
+  --bs-btn-hover-bg: var(--bs-primary);
+  --bs-btn-hover-border-color: var(--bs-primary);
+  --bs-btn-hover-color: #ffffff;
+}
+
+.btn { border-radius: 0.6rem; border-color: rgba(var(--bs-primary-rgb), .95); }
+
+/* 6) If any utility class is still forcing neutral colors, override safely */
+.btn.bg-light, .btn.bg-white { background-color: var(--bs-primary) !important; color: #fff !important; }
+
+
+/* Idle */
+.form-control {
+  border-color: rgba(var(--bs-primary-rgb, 14,165,164), .90);
+}
+
+/* Focus */
+.form-control:focus {
+  border-color: var(--bs-primary);
+  box-shadow: 0 0 0 .2rem color-mix(in srgb, var(--bs-primary) 35%, transparent);
+  outline: 0;
+}
+
+/* THEME VARIABLES (keep as you have above) */
+
+/* Ensure page background uses only --bs-body-bg */
+body { background-color: var(--bs-body-bg) !important; color: var(--bs-body-color); }
+/* If <body> has bg-light, still use the theme body bg */
+body.bg-light { background-color: var(--bs-body-bg) !important; }
+
+
+:root 
+{ --pattern-accent: rgba(var(--bs-primary-rgb, 14,165,164), .12); 
+ } 
+body {
+background-image:
+radial-gradient(circle at 2px 2px, var(--pattern-accent) 2px, transparent 3px),
+radial-gradient(circle at 12px 12px, rgba(0,0,0,.08) 1.5px, transparent 3px);
+background-size: 28px 28px, 28px 28px;
+background-color: var(--bs-body-bg);
+}
+
+/* NAVBAR: apply background + readable link colors */
+.navbar {
+  background-color: var(--bs-navbar-bg) !important;  /* your --bs-navbar-bg (#FF9898) */
+  color: var(--bs-navbar-color);
+}
+/* If using .btn-link in navbar, keep text contrast good */
+.navbar .btn-link { color: var(--bs-navbar-color) !important; }
+.navbar .btn-link:hover { color: var(--bs-navbar-hover-color) !important; }
+
+/* OPTIONAL: if your navbar uses <a class="nav-link"> items, keep readable too */
+.navbar .nav-link { color: var(--bs-navbar-color) !important; }
+.navbar .nav-link:hover { color: var(--bs-navbar-hover-color) !important; }
+
+.card {
+    --bs-card-bg: #B8CFCE; /* your desired card surface */
+    --bs-card-border-color: var(--bs-border-color);
+    background-color: var(--bs-card-bg) !important;
+    background-clip: border-box;
+    border-top-left-radius: var(--bs-border-radius);
+    border-top-right-radius: var(--bs-border-radius);
+    overflow: hidden;
+}
+
+/* Leave card backgrounds to card surfaces only */
+/* Make sure card surfaces use the card background, not body bg */
+.card { background-color: var(--bs-card-bg) !important; }
+.card > .card-body,
+.card .list-group,
+.card .list-group-item,
+.card .card-header,
+.card .card-footer {
+background-color: var(--bs-card-bg) !important;
+}
+/* If you use a ratio wrapper as a visual header, keep only the image area separate */
+.ratio.rounded-top { background-color: transparent !important; }
+
+/* Pretty tiles polish */
+.card { transition: transform .15s ease, box-shadow .2s ease; } /* [20] */
+.card:hover { transform: translateY(-2px); box-shadow: 0 .75rem 1.25rem rgba(2,6,23,.08); } /* [3] */
+
+
+
+
+

@@ -1,0 +1,23 @@
+2025-09-06 18:50:27 | INFO     | Flask app created successfully
+2025-09-06 18:50:29 | INFO     | Incoming request
+2025-09-06 18:50:29 | INFO     | Memoir mode home sidebar
+2025-09-06 18:50:29 | INFO     | Response status: 200 OK
+2025-09-06 18:50:29 | INFO     | Incoming request
+2025-09-06 18:50:29 | INFO     | Response status: 404 NOT FOUND
+2025-09-06 18:50:29 | INFO     | Incoming request
+2025-09-06 18:50:29 | INFO     | Incoming request
+2025-09-06 18:50:30 | INFO     | Response status: 304 NOT MODIFIED
+2025-09-06 18:50:30 | INFO     | Response status: 304 NOT MODIFIED
+2025-09-06 18:50:30 | INFO     | Incoming request
+2025-09-06 18:50:30 | INFO     | Response status: 304 NOT MODIFIED
+2025-09-06 18:52:06 | INFO     | Incoming request
+2025-09-06 18:52:06 | INFO     | Memoir mode home sidebar
+2025-09-06 18:52:06 | INFO     | Response status: 200 OK
+2025-09-06 18:52:06 | INFO     | Incoming request
+2025-09-06 18:52:06 | INFO     | Response status: 404 NOT FOUND
+2025-09-06 18:52:06 | INFO     | Incoming request
+2025-09-06 18:52:06 | INFO     | Response status: 304 NOT MODIFIED
+2025-09-06 18:52:06 | INFO     | Incoming request
+2025-09-06 18:52:06 | INFO     | Response status: 200 OK
+2025-09-06 18:52:06 | INFO     | Incoming request
+2025-09-06 18:52:06 | INFO     | Response status: 304 NOT MODIFIED

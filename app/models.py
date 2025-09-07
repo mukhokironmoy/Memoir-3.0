@@ -20,7 +20,7 @@ class Person(db.Model, TimestampMixin):
     id = db.Column(db.Integer, primary_key=True)
     display_name = db.Column(db.String(120), nullable=False)          # "Mom", "Dr. Mehra", or "unknown_ab12cd34"
     relation = db.Column(db.String(80))                                # optional: Mother / Friend / Doctor
-    photo_url = db.Column(db.String(512))                              # optional profile image
+    photo_filename = db.Column(db.String(255), nullable=True)                             # optional profile image
     is_unknown = db.Column(db.Boolean, default=False, nullable=False)
     temp_tag = db.Column(db.String(64), unique=True)                   # "unknown_<uuid8>" for merge flows
     notes = db.Column(db.Text)                                         # freeform notes for the person

@@ -1,0 +1,10 @@
+2025-09-06 10:20:45 | INFO     | Flask app created successfully
+2025-09-06 10:29:16 | INFO     | Incoming request
+2025-09-06 10:29:16 | INFO     | Response status: 200 OK
+2025-09-06 10:31:16 | INFO     | Incoming request
+2025-09-06 10:31:16 | INFO     | Glasses home route accessed
+2025-09-06 10:31:16 | INFO     | Response status: 200 OK
+2025-09-06 10:31:16 | INFO     | Incoming request
+2025-09-06 10:31:16 | INFO     | Response status: 304 NOT MODIFIED
+2025-09-06 10:31:16 | INFO     | Incoming request
+2025-09-06 10:31:16 | INFO     | Response status: 200 OK

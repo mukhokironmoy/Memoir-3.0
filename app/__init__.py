@@ -20,6 +20,13 @@ def create_app(test_config=None):
         SQLALCHEMY_DATABASE_URI="sqlite:///" + os.path.join(app.instance_path, "memoir.db"),
         SQLALCHEMY_TRACK_MODIFICATIONS=False,
     )
+    app.config["UPLOAD_FOLDER"] = os.path.join(app.root_path, "static", "people")
+    app.config["MAX_CONTENT_LENGTH"] = 5 * 1024 * 1024  # 5 MB
+    ALLOWED_EXTENSIONS = {"png", "jpg", "jpeg", "webp"}
+    
+    os.makedirs(app.config["UPLOAD_FOLDER"], exist_ok=True)
+
+
     if test_config:
         app.config.update(test_config)
 

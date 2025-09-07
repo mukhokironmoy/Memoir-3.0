@@ -1,0 +1,74 @@
+{% extends "memory_bank_base.html" %} {% block content %}
+<div class="mb-4" data-aos="fade-right">
+  <h1 class="h3 mb-1">Welcome to your Memory Bank</h1>
+  <p class="text-muted mb-0">
+    Seed data is already loaded. Pick a person to view their profile.
+  </p>
+</div>
+
+<h2 class="h5 mb-3" data-aos="fade-right">Contacts</h2>
+<div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-3">
+  {% for card in people_cards %}
+  <div class="col" data-aos="fade-up" data-aos-delay="{{ loop.index0 * 60 }}">
+    <div class="card shadow-sm h-100 border-0">
+      <div class="ratio ratio-4x3 bg-light rounded-top overflow-hidden">
+        <img
+          src="{{ card.photo_url }}"
+          class="w-100 h-100"
+          style="object-fit: cover"
+          alt="{{ card.person.display_name }}"
+        />
+      </div>
+      <div class="card-body">
+        <h5 class="card-title mb-1">{{ card.person.display_name }}</h5>
+        <p class="card-subtitle text-muted">
+          {{ card.person.relation or "—" }}
+        </p>
+        <div class="mt-3">
+          <a
+            class="btn btn-outline-primary btn-sm"
+            href="{{ url_for('memory_bank.person', person_id=card.person.id) }}"
+          >
+            <i class="bi bi-person"></i> Open profile
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  {% else %}
+  <p class="text-muted">No contacts yet.</p>
+  {% endfor %}
+</div>
+
+<h2 class="h5 mt-5 mb-3" data-aos="fade-right">Unknowns</h2>
+<div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-3">
+  {% for card in unknown_cards %}
+  <div class="col" data-aos="fade-up" data-aos-delay="{{ loop.index0 * 60 }}">
+    <div class="card shadow-sm h-100 border-0">
+      <div class="ratio ratio-4x3 bg-light rounded-top overflow-hidden">
+        <img
+          src="{{ card.photo_url }}"
+          class="w-100 h-100"
+          style="object-fit: cover"
+          alt="{{ card.person.display_name }}"
+        />
+      </div>
+      <div class="card-body">
+        <h5 class="card-title mb-1">{{ card.person.display_name }}</h5>
+        <p class="card-subtitle text-muted">Unknown</p>
+        <div class="mt-3">
+          <a
+            class="btn btn-outline-secondary btn-sm"
+            href="{{ url_for('memory_bank.person', person_id=card.person.id) }}"
+          >
+            <i class="bi bi-person-dash"></i> Open temporary profile
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  {% else %}
+  <p class="text-muted">No unknowns.</p>
+  {% endfor %}
+</div>
+{% endblock %}

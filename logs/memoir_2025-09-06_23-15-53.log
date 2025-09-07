@@ -1,0 +1,56 @@
+2025-09-06 23:15:53 | INFO     | Flask app created successfully
+2025-09-06 23:15:56 | INFO     | Incoming request
+2025-09-06 23:15:56 | INFO     | Glasses home route accessed
+2025-09-06 23:15:56 | INFO     | Response status: 200 OK
+2025-09-06 23:15:56 | INFO     | Incoming request
+2025-09-06 23:15:56 | INFO     | Response status: 404 NOT FOUND
+2025-09-06 23:15:56 | INFO     | Incoming request
+2025-09-06 23:15:56 | INFO     | Incoming request
+2025-09-06 23:15:57 | INFO     | Response status: 304 NOT MODIFIED
+2025-09-06 23:15:57 | INFO     | Response status: 304 NOT MODIFIED
+2025-09-06 23:15:57 | INFO     | Incoming request
+2025-09-06 23:15:57 | INFO     | Response status: 200 OK
+2025-09-06 23:18:00 | INFO     | Incoming request
+2025-09-06 23:18:00 | INFO     | Glasses home route accessed
+2025-09-06 23:18:00 | INFO     | Response status: 200 OK
+2025-09-06 23:18:00 | INFO     | Incoming request
+2025-09-06 23:18:00 | INFO     | Response status: 404 NOT FOUND
+2025-09-06 23:18:00 | INFO     | Incoming request
+2025-09-06 23:18:00 | INFO     | Incoming request
+2025-09-06 23:18:00 | INFO     | Response status: 304 NOT MODIFIED
+2025-09-06 23:18:00 | INFO     | Response status: 304 NOT MODIFIED
+2025-09-06 23:18:00 | INFO     | Incoming request
+2025-09-06 23:18:00 | INFO     | Response status: 200 OK
+2025-09-06 23:18:34 | INFO     | Incoming request
+2025-09-06 23:18:34 | INFO     | Glasses home route accessed
+2025-09-06 23:18:34 | INFO     | Response status: 200 OK
+2025-09-06 23:18:34 | INFO     | Incoming request
+2025-09-06 23:18:34 | INFO     | Incoming request
+2025-09-06 23:18:34 | INFO     | Response status: 404 NOT FOUND
+2025-09-06 23:18:34 | INFO     | Response status: 304 NOT MODIFIED
+2025-09-06 23:18:34 | INFO     | Incoming request
+2025-09-06 23:18:34 | INFO     | Response status: 304 NOT MODIFIED
+2025-09-06 23:18:34 | INFO     | Incoming request
+2025-09-06 23:18:34 | INFO     | Response status: 200 OK
+2025-09-06 23:18:47 | INFO     | Incoming request
+2025-09-06 23:18:47 | INFO     | Glasses home route accessed
+2025-09-06 23:18:47 | INFO     | Response status: 200 OK
+2025-09-06 23:18:47 | INFO     | Incoming request
+2025-09-06 23:18:47 | INFO     | Response status: 404 NOT FOUND
+2025-09-06 23:18:47 | INFO     | Incoming request
+2025-09-06 23:18:47 | INFO     | Response status: 304 NOT MODIFIED
+2025-09-06 23:18:47 | INFO     | Incoming request
+2025-09-06 23:18:47 | INFO     | Response status: 304 NOT MODIFIED
+2025-09-06 23:18:47 | INFO     | Incoming request
+2025-09-06 23:18:47 | INFO     | Response status: 200 OK
+2025-09-06 23:20:20 | INFO     | Incoming request
+2025-09-06 23:20:20 | INFO     | Glasses home route accessed
+2025-09-06 23:20:20 | INFO     | Response status: 200 OK
+2025-09-06 23:20:20 | INFO     | Incoming request
+2025-09-06 23:20:20 | INFO     | Response status: 404 NOT FOUND
+2025-09-06 23:20:20 | INFO     | Incoming request
+2025-09-06 23:20:20 | INFO     | Response status: 304 NOT MODIFIED
+2025-09-06 23:20:20 | INFO     | Incoming request
+2025-09-06 23:20:20 | INFO     | Response status: 200 OK
+2025-09-06 23:20:20 | INFO     | Incoming request
+2025-09-06 23:20:20 | INFO     | Response status: 200 OK

@@ -1,0 +1,32 @@
+{% extends "memory_bank_base.html" %}
+{% block content %}
+<h1 class="h4 mb-3" data-aos="fade-right">Merge Unknown into Known Contact</h1>
+<p class="text-muted" data-aos="fade-in">Unknown profile: <strong>{{ unknown.display_name }}</strong> (ID {{ unknown.id }})</p>
+
+<form method="post" action="{{ url_for('memory_bank.merge_apply', unknown_id=unknown.id) }}"
+      class="row g-3" style="max-width:520px;" data-aos="fade-up">
+  <div class="col-12">
+    <label class="form-label">Merge into</label>
+    <select name="known_id" class="form-select form-control"" required> 
+      <option value="" disabled selected>Select a known contact…</option>
+      {% for k in knowns %}
+        <option value="{{ k.id }}">{{ k.display_name }} {% if k.relation %}— {{ k.relation }}{% endif %}</option>
+      {% endfor %}
+    </select>
+  </div>
+
+  <div class="col-12">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" id="keep_photo" name="keep_photo" value="1" checked>
+      <label class="form-check-label" for="keep_photo">Keep known contact’s photo</label>
+    </div>
+  </div>
+
+  <div class="col-12">
+    <button type="submit" class="btn btn-danger">
+      <i class="bi bi-arrow-merge"></i> Merge
+    </button>
+    <a href="{{ url_for('memory_bank.person', person_id=unknown.id) }}" class="btn btn-outline-secondary">Cancel</a>
+  </div>
+</form>
+{% endblock %}

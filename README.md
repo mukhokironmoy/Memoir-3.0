@@ -126,7 +126,7 @@ Open in your browser:
 
 - [http://127.0.0.1:5000/ping](http://127.0.0.1:5000/ping) → check server status
 - [http://127.0.0.1:5000/glasses/home](http://127.0.0.1:5000/glasses/home) → blueprint test
-- [http://127.0.0.1:5000/memory-bank/home](http://127.0.0.1:5000/memory-bank/home) → blueprint test
+- [http://127.0.0.1:5000/memory_bank/home](http://127.0.0.1:5000/memory-bank/home) → blueprint test
 
 ---
 

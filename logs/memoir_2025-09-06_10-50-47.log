@@ -1,0 +1,12 @@
+2025-09-06 10:50:47 | INFO     | Flask app created successfully
+2025-09-06 10:53:50 | INFO     | Incoming request
+2025-09-06 10:53:50 | INFO     | Glasses home route accessed
+2025-09-06 10:55:35 | INFO     | Incoming request
+2025-09-06 10:55:35 | INFO     | Glasses home route accessed
+2025-09-06 10:55:35 | INFO     | Response status: 200 OK
+2025-09-06 10:55:35 | INFO     | Incoming request
+2025-09-06 10:55:35 | INFO     | Incoming request
+2025-09-06 10:55:35 | INFO     | Response status: 304 NOT MODIFIED
+2025-09-06 10:55:35 | INFO     | Response status: 304 NOT MODIFIED
+2025-09-06 10:55:38 | INFO     | Incoming request
+2025-09-06 10:55:38 | INFO     | Memoir mode home sidebar

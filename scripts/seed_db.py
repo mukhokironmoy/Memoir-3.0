@@ -39,7 +39,7 @@ def seed_data():
     mom = Person(
         display_name="Mom",
         relation="Mother",
-        photo_url="/static/people/mom.jpg",
+        photo_filename="mom.png",
         is_unknown=False,
         temp_tag=None,
         notes="Prefers morning visits; likes short walks after breakfast.",
@@ -49,7 +49,7 @@ def seed_data():
     dr = Person(
         display_name="Dr. Mehra",
         relation="Doctor",
-        photo_url="/static/people/dr_mehra.jpg",
+        photo_filename="dr_mehra.png",
         is_unknown=False,
         temp_tag=None,
         notes="Family physician; clinic Tue/Thu evenings.",
@@ -59,7 +59,7 @@ def seed_data():
     unknown_live = Person(
         display_name="unknown_ab12cd34",
         relation=None,
-        photo_url="/static/snapshots/ab12cd34.jpg",  # snapshot frame saved by overlay
+        photo_filename="ab12cd34.png",  # snapshot frame saved by overlay
         is_unknown=True,
         temp_tag="unknown_ab12cd34",
         notes=None,
@@ -69,7 +69,7 @@ def seed_data():
     ravi = Person(
         display_name="Ravi Kumar",
         relation="Neighbor",
-        photo_url="/static/people/ravi.jpg",
+        photo_filename="ravi.png",
         is_unknown=False,      # registered now
         temp_tag=None,         # temp tag cleared on registration
         notes="Lives across the hall; meets on evening walks.",
@@ -86,9 +86,9 @@ def seed_data():
         started_at=dt(2025, 9, 3, 10, 5, 0),
         ended_at=dt(2025, 9, 3, 10, 12, 15),
         summary=(
-            "• Morning walk plan for 6:30 AM tomorrow\n"
-            "• Reminder: take BP meds at 8 PM\n"
-            "• Discussed weekend visit by Ria"
+            "Morning walk plan for 6:30 AM tomorrow\n"
+            "Reminder: take BP meds at 8 PM\n"
+            "Discussed weekend visit by Ria"
         ),
         face_snapshot_path=None,
         source="glasses",
@@ -142,9 +142,9 @@ def seed_data():
         started_at=dt(2025, 9, 2, 17, 30, 0),
         ended_at=dt(2025, 9, 2, 17, 40, 0),
         summary=(
-            "• BP readings stable over the week\n"
-            "• Continue current medication\n"
-            "• Book follow-up in two weeks"
+            "BP readings stable over the week\n"
+            "Continue current medication\n"
+            "Book follow-up in two weeks"
         ),
         face_snapshot_path=None,
         source="glasses",
@@ -224,9 +224,9 @@ def seed_data():
         started_at=dt(2025, 9, 1, 18, 0, 0),
         ended_at=dt(2025, 9, 1, 18, 6, 30),
         summary=(
-            "• Discussed society meeting on Sunday\n"
-            "• Shared maintenance notice details\n"
-            "• Will bring forms tomorrow"
+            "Discussed society meeting on Sunday\n"
+            "Shared maintenance notice details\n"
+            "Will bring forms tomorrow"
         ),
         face_snapshot_path="/static/snapshots/9f81c2ab.jpg",  # frame from the unknown moment
         source="glasses",

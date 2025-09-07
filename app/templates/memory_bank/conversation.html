@@ -1,0 +1,97 @@
+{% extends "memory_bank/person.html" %} {% block person_body %}
+<div
+  class="d-flex justify-content-between align-items-center mb-2"
+  data-aos="fade-up"
+>
+  <h2 class="h4 mb-0">Conversation #{{ conversation.id }}</h2>
+  <div class="d-flex gap-2">
+    {% if person %}
+    <a
+      class="btn btn-outline-secondary btn-sm"
+      href="{{ url_for('memory_bank.person', person_id=person.id) }}"
+    >
+      <i class="bi bi-arrow-left"></i> Back to profile
+    </a>
+    {% endif %}
+
+    <!-- Retry summarize (placeholder: posts to a no-op for now) -->
+    <form
+      method="post"
+      action="{{ url_for('memory_bank.conversation_retry_summary', conversation_id=conversation.id) }}"
+    >
+      <button type="submit" class="btn btn-outline-primary btn-sm">
+        <i class="bi bi-arrow-repeat"></i> Retry summarize
+      </button>
+    </form>
+
+    <form
+      method="post"
+      action="{{ url_for('memory_bank.conversation_delete', conversation_id=conversation.id) }}"
+      onsubmit="return confirm('Delete this conversation?');"
+    >
+      <button type="submit" class="btn btn-outline-danger btn-sm">
+        <i class="bi bi-trash"></i> Delete
+      </button>
+    </form>
+  </div>
+</div>
+
+{% if person %}
+<p class="text-muted mb-3" data-aos="fade-in">
+  With
+  <a href="{{ url_for('memory_bank.person', person_id=person.id) }}"
+    >{{ person.display_name }}</a
+  >
+  · {{ conversation.started_at.strftime('%Y-%m-%d %H:%M') }}
+</p>
+{% endif %}
+
+<div class="row g-4">
+  <div class="col-12 col-lg-6" data-aos="fade-up" data-aos-delay="40">
+    <div class="card shadow-sm h-100 border-0">
+      <div class="card-body">
+        <h5 class="card-title">Summary</h5>
+        {% if conversation.summary %}
+        <pre class="mb-0" style="white-space: pre-wrap">
+{{ conversation.summary }}</pre
+        >
+        {% else %}
+        <p class="text-muted mb-0">No summary yet.</p>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+
+  <div class="col-12 col-lg-6" data-aos="fade-up" data-aos-delay="80">
+    <div class="card shadow-sm h-100 border-0">
+      <div class="card-body">
+        <h5 class="card-title">Transcript</h5>
+        <ol class="mb-0">
+          {% for t in turns %}
+          <li class="mb-1">
+            <strong>{{ ui_speaker_label(t.speaker) }}</strong>:
+            <span>{{ t.text }}</span>
+            <span class="text-muted">
+              — {{ t.timestamp.strftime('%Y-%m-%d %H:%M:%S') }}</span
+            >
+          </li>
+          {% else %}
+          <li class="text-muted">No turns recorded.</li>
+          {% endfor %}
+        </ol>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}
+
+<!-- At bottom of conversation.html block or globally in base -->
+<script>
+  document.addEventListener("submit", (e) => {
+    const btn = e.target.querySelector('button[type="submit"]');
+    if (btn) {
+      btn.disabled = true;
+      btn.classList.add("disabled");
+    }
+  });
+</script>

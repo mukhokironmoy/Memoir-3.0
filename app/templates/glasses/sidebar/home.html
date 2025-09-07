@@ -1,0 +1,17 @@
+{% extends "glasses/memoir_mode2.html" %} {% block sidebar %}
+<h4 class="fw-bold mb-4">Memoir Home</h4>
+<div class="list-group list-group-flush">
+  <a
+    href="{{ url_for('glasses.sidebar_contacts') }}"
+    class="list-group-item glass text-white mb-2"
+  >
+    View Contacts
+  </a>
+  <a
+    href="{{ url_for('glasses.sidebar_profile', person_id=1) }}"
+    class="list-group-item glass text-white mb-2"
+  >
+    View Person’s Profile
+  </a>
+</div>
+{% endblock %}

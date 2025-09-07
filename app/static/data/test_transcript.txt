@@ -1,0 +1,31 @@
+[00:00] User: Hey, glad you could come by today. How was the traffic getting here?
+
+[00:07] Ram: Oh, not too bad actually. I left a bit earlier than usual, so I missed the rush.
+
+[00:15] User: Smart move. I should probably start doing that myself. I’m always stuck in traffic when I go downtown.
+
+[00:26] Ram: Yeah, it makes a huge difference. By the way, I brought along that book I told you about last week.
+
+[00:34] User: Oh, nice! The one on design thinking, right?
+
+[00:40] Ram: Exactly. I thought you might enjoy the case studies in it. They’re pretty practical.
+
+[00:50] User: That’s perfect. I’ve been trying to find some real-world examples for my project.
+
+[00:58] Ram: Speaking of projects, how’s yours coming along? You mentioned you were in the early stages last time.
+
+[01:08] User: It’s moving slowly but steadily. I’m setting up the basic framework now, and once that’s stable, I can start experimenting with features.
+
+[01:20] Ram: That sounds exciting. Do you already have a timeline in mind?
+
+[01:28] User: Ideally, I want to finish the prototype in a month, but I’m giving myself some buffer in case things break.
+
+[01:38] Ram: That’s wise. No project ever goes exactly as planned.
+
+[01:44] User: True. Anyway, thanks again for the book. I’ll definitely dive into it this weekend.
+
+[01:52] Ram: No problem at all. Let me know what you think once you’ve gone through it.
+
+[02:00] User: Will do. So, coffee?
+
+[02:03] Ram: Absolutely. Let’s go.

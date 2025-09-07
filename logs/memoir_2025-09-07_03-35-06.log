@@ -1,0 +1,26 @@
+2025-09-07 03:35:06 | INFO     | Flask app created successfully
+2025-09-07 03:36:30 | INFO     | Incoming request
+2025-09-07 03:36:30 | INFO     | Glasses home route accessed
+2025-09-07 03:36:30 | INFO     | Response status: 200 OK
+2025-09-07 03:36:30 | INFO     | Incoming request
+2025-09-07 03:36:30 | INFO     | Response status: 404 NOT FOUND
+2025-09-07 03:36:30 | INFO     | Incoming request
+2025-09-07 03:36:30 | INFO     | Incoming request
+2025-09-07 03:36:31 | INFO     | Response status: 304 NOT MODIFIED
+2025-09-07 03:36:31 | INFO     | Response status: 200 OK
+2025-09-07 03:36:31 | INFO     | Incoming request
+2025-09-07 03:36:31 | INFO     | Response status: 304 NOT MODIFIED
+2025-09-07 03:36:31 | INFO     | Incoming request
+2025-09-07 03:36:31 | INFO     | Response status: 304 NOT MODIFIED
+2025-09-07 03:36:31 | INFO     | Incoming request
+2025-09-07 03:36:31 | INFO     | Response status: 304 NOT MODIFIED
+2025-09-07 03:36:31 | INFO     | Incoming request
+2025-09-07 03:36:31 | INFO     | Response status: 304 NOT MODIFIED
+2025-09-07 03:36:31 | INFO     | Incoming request
+2025-09-07 03:36:31 | INFO     | Response status: 304 NOT MODIFIED
+2025-09-07 03:36:31 | INFO     | Incoming request
+2025-09-07 03:36:31 | INFO     | Incoming request
+2025-09-07 03:36:31 | INFO     | Response status: 304 NOT MODIFIED
+2025-09-07 03:36:31 | INFO     | Response status: 304 NOT MODIFIED
+2025-09-07 03:36:32 | INFO     | Incoming request
+2025-09-07 03:36:32 | INFO     | Response status: 200 OK

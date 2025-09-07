@@ -1,0 +1,84 @@
+/* Fullscreen background video */
+#videoBackground {
+  position: fixed;
+  inset: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  z-index: -1;
+  background: #000;
+}
+
+/* Subtle glassmorphic card */
+.glass {
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+  border-radius: 1rem;
+}
+
+/* Clock box spacing */
+.clock-box {
+  min-width: 220px;
+  padding: 1rem 1.25rem;
+}
+
+.time-text {
+  line-height: 1;
+}
+
+.date-text {
+  opacity: 0.9;
+  letter-spacing: 0.04em;
+}
+
+/* Overlay containers */
+.overlay {
+  position: fixed;
+  z-index: 10;
+}
+
+/* Hide iOS controls tint on video */
+video::-webkit-media-controls {
+  display: none !important;
+  -webkit-appearance: none;
+}
+
+/* Custom Launch button color */
+#launchBtn {
+  background-color: #9cafaa;
+  border-color: #9cafaa;
+  color: white;
+}
+
+#launchBtn:hover {
+  background-color: #8a9a9a;
+  border-color: #8a9a9a;
+}
+
+
+#overlayCanvas {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: 1;
+  pointer-events: none; /* so clicks go through */
+}
+
+#sidebarHeader {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  backdrop-filter: blur(8px);
+  background: rgba(0,0,0,0.25);
+  border-bottom: 1px solid rgba(255,255,255,0.12);
+  margin: -1rem -1rem 0;
+  padding: .5rem 1rem;
+}
+#sidebarTitle {
+  font-size: 1.1rem;
+}

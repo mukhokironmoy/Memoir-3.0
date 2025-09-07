@@ -1,0 +1,67 @@
+2025-09-06 13:20:25 | INFO     | Flask app created successfully
+2025-09-06 13:20:42 | INFO     | Incoming request
+2025-09-06 13:20:42 | INFO     | Response status: 200 OK
+2025-09-06 13:39:08 | INFO     | Incoming request
+2025-09-06 13:39:08 | INFO     | Glasses home route accessed
+2025-09-06 13:39:08 | INFO     | Response status: 200 OK
+2025-09-06 13:39:08 | INFO     | Incoming request
+2025-09-06 13:39:08 | INFO     | Incoming request
+2025-09-06 13:39:08 | INFO     | Response status: 304 NOT MODIFIED
+2025-09-06 13:39:08 | INFO     | Response status: 304 NOT MODIFIED
+2025-09-06 13:39:12 | INFO     | Incoming request
+2025-09-06 13:39:12 | INFO     | Memoir mode home sidebar
+2025-09-06 13:39:12 | INFO     | Response status: 200 OK
+2025-09-06 13:39:12 | INFO     | Incoming request
+2025-09-06 13:39:12 | INFO     | Incoming request
+2025-09-06 13:39:12 | INFO     | Response status: 304 NOT MODIFIED
+2025-09-06 13:39:12 | INFO     | Response status: 200 OK
+2025-09-06 13:39:12 | INFO     | Incoming request
+2025-09-06 13:39:12 | INFO     | Response status: 200 OK
+2025-09-06 13:39:14 | INFO     | Incoming request
+2025-09-06 13:39:14 | INFO     | Incoming request
+2025-09-06 13:39:14 | INFO     | Response status: 404 NOT FOUND
+2025-09-06 13:39:14 | INFO     | Response status: 404 NOT FOUND
+2025-09-06 13:39:14 | INFO     | Incoming request
+2025-09-06 13:39:14 | INFO     | Response status: 404 NOT FOUND
+2025-09-06 13:39:14 | INFO     | Incoming request
+2025-09-06 13:39:14 | INFO     | Response status: 404 NOT FOUND
+2025-09-06 13:40:09 | INFO     | Incoming request
+2025-09-06 13:40:09 | INFO     | Response status: 404 NOT FOUND
+2025-09-06 13:40:09 | INFO     | Incoming request
+2025-09-06 13:40:09 | INFO     | Incoming request
+2025-09-06 13:40:09 | INFO     | Incoming request
+2025-09-06 13:40:09 | INFO     | Response status: 404 NOT FOUND
+2025-09-06 13:40:09 | INFO     | Response status: 404 NOT FOUND
+2025-09-06 13:40:09 | INFO     | Response status: 404 NOT FOUND
+2025-09-06 13:40:11 | INFO     | Incoming request
+2025-09-06 13:40:11 | INFO     | Incoming request
+2025-09-06 13:40:11 | INFO     | Response status: 404 NOT FOUND
+2025-09-06 13:40:11 | INFO     | Response status: 404 NOT FOUND
+2025-09-06 13:40:11 | INFO     | Incoming request
+2025-09-06 13:40:11 | INFO     | Incoming request
+2025-09-06 13:40:11 | INFO     | Response status: 404 NOT FOUND
+2025-09-06 13:40:11 | INFO     | Response status: 404 NOT FOUND
+2025-09-06 13:40:14 | INFO     | Incoming request
+2025-09-06 13:40:14 | INFO     | Response status: 404 NOT FOUND
+2025-09-06 13:40:14 | INFO     | Incoming request
+2025-09-06 13:40:14 | INFO     | Incoming request
+2025-09-06 13:40:14 | INFO     | Response status: 404 NOT FOUND
+2025-09-06 13:40:14 | INFO     | Incoming request
+2025-09-06 13:40:14 | INFO     | Response status: 404 NOT FOUND
+2025-09-06 13:40:14 | INFO     | Response status: 404 NOT FOUND
+2025-09-06 13:40:35 | INFO     | Incoming request
+2025-09-06 13:40:35 | INFO     | Response status: 404 NOT FOUND
+2025-09-06 13:40:35 | INFO     | Incoming request
+2025-09-06 13:40:35 | INFO     | Response status: 404 NOT FOUND
+2025-09-06 13:40:35 | INFO     | Incoming request
+2025-09-06 13:40:35 | INFO     | Incoming request
+2025-09-06 13:40:35 | INFO     | Response status: 404 NOT FOUND
+2025-09-06 13:40:35 | INFO     | Response status: 404 NOT FOUND
+2025-09-06 13:40:56 | INFO     | Incoming request
+2025-09-06 13:40:56 | INFO     | Incoming request
+2025-09-06 13:40:56 | INFO     | Incoming request
+2025-09-06 13:40:56 | INFO     | Response status: 404 NOT FOUND
+2025-09-06 13:40:56 | INFO     | Response status: 404 NOT FOUND
+2025-09-06 13:40:56 | INFO     | Incoming request
+2025-09-06 13:40:56 | INFO     | Response status: 404 NOT FOUND
+2025-09-06 13:40:56 | INFO     | Response status: 404 NOT FOUND

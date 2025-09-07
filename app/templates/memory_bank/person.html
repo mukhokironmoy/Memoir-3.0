@@ -1,0 +1,165 @@
+{% extends "memory_bank_base.html" %} {% block content %}
+
+<div class="row g-4 align-items-start" data-aos="fade-up">
+  <!-- Photo -->
+  <div class="col-12 col-md-auto" data-aos="zoom-in" data-aos-delay="40">
+    <img
+      src="{{ photo_url }}"
+      alt="{{ person.display_name }}"
+      class="avatar-lg shadow-sm"
+    />
+  </div>
+  <!-- Name + Relation -->
+  <div class="col" data-aos="fade-left" data-aos-delay="80">
+    {% block person_header %}
+    <h1 class="h3 mb-1">{{ person.display_name }}</h1>
+    <p class="text-muted mb-0">{{ person.relation or "" }}</p>
+    {% endblock %}
+
+    <!-- Actions under header -->
+    <div class="mt-3 d-flex flex-wrap gap-2" data-aos="zoom-in">
+      <button
+        class="btn btn-outline-secondary btn-sm"
+        data-bs-toggle="modal"
+        data-bs-target="#editPersonModal"
+      >
+        <i class="bi bi-pencil"></i> Edit profile
+      </button>
+      <form
+        method="post"
+        action="{{ url_for('memory_bank.person_delete', person_id=person.id) }}"
+        onsubmit="return confirm('Delete this person and all their conversations?');"
+      >
+        <button type="submit" class="btn btn-outline-danger btn-sm">
+          <i class="bi bi-person-x"></i> Delete person
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<hr class="my-4" data-aos="fade-in" data-aos-delay="60" />
+
+{% block person_body %}
+<!-- Conversations section, centered -->
+<div class="text-center mb-3">
+  <h3 class="h5 mb-1">Recent Conversations</h3>
+  <p class="text-muted mb-0">Latest chats shown as cards</p>
+</div>
+
+<!-- Responsive tiled grid -->
+<div
+  class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-3 justify-content-center"
+>
+  {% for c in conversations %}
+  <div class="col d-flex">
+    <div
+      class="card shadow-sm border-0 rounded-3 w-100 h-100 mx-auto"
+      style="max-width: 440px"
+    >
+      <div class="card-body text-center">
+        <h5 class="card-title mb-1">Conversation #{{ c.id }}</h5>
+        <p class="card-subtitle text-muted mb-3">
+          {{ c.started_at.strftime('%Y-%m-%d %H:%M') }}
+        </p>
+        <a
+          class="btn btn-outline-primary btn-sm"
+          href="{{ url_for('memory_bank.conversation', conversation_id=c.id) }}"
+        >
+          Open conversation
+        </a>
+      </div>
+    </div>
+  </div>
+  {% else %}
+  <div class="col-12">
+    <p class="text-muted text-center">No conversations yet.</p>
+  </div>
+  {% endfor %}
+</div>
+
+{% if person.is_unknown %}
+<div class="d-flex flex-wrap gap-2 justify-content-center mt-4">
+  <a
+    class="btn btn-primary btn-sm"
+    href="{{ url_for('memory_bank.register', temp_tag=person.temp_tag) }}"
+  >
+    <i class="bi bi-person-plus"></i> Register this unknown as a new contact
+  </a>
+  <a
+    class="btn btn-outline-danger btn-sm"
+    href="{{ url_for('memory_bank.merge_pick', unknown_id=person.id) }}"
+  >
+    <i class="bi bi-arrow-merge"></i> Merge into known contact
+  </a>
+</div>
+{% endif %}
+
+<p class="text-muted mt-4 text-center">Internal ID: {{ person.id }}</p>
+{% endblock %}
+
+<!-- Edit Person Modal -->
+<div
+  class="modal fade"
+  id="editPersonModal"
+  tabindex="-1"
+  aria-labelledby="editPersonLabel"
+  aria-hidden="true"
+>
+  <div class="modal-dialog">
+    <form
+      class="modal-content"
+      method="post"
+      action="{{ url_for('memory_bank.person_update', person_id=person.id) }}"
+      enctype="multipart/form-data"
+    >
+      <div class="modal-header">
+        <h5 class="modal-title" id="editPersonLabel">Edit profile</h5>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="modal"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="modal-body">
+        <div class="mb-3">
+          <label class="form-label">Name</label>
+          <input
+            name="display_name"
+            class="form-control"
+            value="{{ person.display_name }}"
+            required
+          />
+        </div>
+        <div class="mb-3">
+          <label class="form-label">Relation</label>
+          <input
+            name="relation"
+            class="form-control"
+            placeholder="Mother / Friend / Doctor"
+            value="{{ person.relation or '' }}"
+          />
+        </div>
+        <div class="mb-3">
+          <label class="form-label">Change photo</label>
+          <input
+            type="file"
+            name="photo"
+            class="form-control"
+            accept=".png,.jpg,.jpeg,.webp"
+          />
+          <div class="form-text">Leave empty to keep current photo.</div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-secondary" data-bs-dismiss="modal" type="button">
+          Cancel
+        </button>
+        <button class="btn btn-primary" type="submit">Save changes</button>
+      </div>
+    </form>
+  </div>
+</div>
+
+{% endblock %}
