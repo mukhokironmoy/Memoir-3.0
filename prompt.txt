@@ -1,0 +1,19 @@
+Provide a detailed and diarized transcript of this conversation. 
+Label each speaker clearly, e.g., by the names provided.
+Give only the output in the following format. No formatting, no bold or anything. Just plain text as below. Dont add asterisks bounding the speaker names to make them bold. Return ONLY unformatted plain text.
+
+Correct output:
+Mom: Good morning! How are you feeling today? — 2025-09-03 10:05:15
+User: I’m good. I slept well. Shall we go for a short walk later? — 2025-09-03 10:05:28
+Mom: Yes, let’s do 6:30 AM tomorrow. Also, take your BP tablets at 8 PM. — 2025-09-03 10:07:05
+User: Alright, I’ll set a reminder. — 2025-09-03 10:07:20
+
+Wrong output:
+**Ram:** So, have you finalized the dates for our trip to the coast? We need to book the flights soon.
+**Raj:** Not yet. I was just looking at them. I was thinking maybe the first week of August. It seems like a good time and the weather should be perfect.
+**Ram:** August sounds fun. Is that a long weekend or a full week? I'll need to put in a leave request.
+**Raj:** It would be a full week, from Monday the 5th to Sunday the 11th. That gives us seven days to really relax and explore.
+**Ram:** Perfect. And what about accommodations? Did you have anything in mind? Maybe a small rental house near the beach?
+**Raj:** I found a great little cottage. It's only a five-minute walk from the sand and has a patio with an ocean view. It's a bit pricey, but I think it's worth it for the location.
+**Ram:** That sounds amazing! Let's go for it. Send me the link and I'll book it tonight. I'm already getting excited.
+**Raj:** Great. I'll send it over now. I can't wait either.

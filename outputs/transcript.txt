@@ -1,0 +1,10 @@
+p1: Yeah, sorry.
+p2: Yeah, start.
+p1: Hello.
+p2: Hello, Abhishek.
+p1: Hi, we are in hack summit reviewing team Shaxi.
+p2: Hi, we are in hack summit reviewing team Shaxi.
+p1: We are currently recording a sample audio for test.
+p2: We are currently testing the audio for this team named Shaxi.
+p1: Okay.
+p2: Okay. Thank you, Akash.
